@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true"
+    android:background="@drawable/log_in">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:clipToPadding="true"
+                android:background="#1C2E4A"
+                app:title="Central Park">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/LogInQuestionMark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_question_mark"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/centralpark_logo"
+                app:civ_border_width="1dp"
+                app:civ_border_color="#FFFF">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <EditText
+                android:id="@+id/logInEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/logInPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_dialpad"
+                android:drawablePadding="10dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/LogInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Log-In"
+                android:clickable="true"
+                android:background="@drawable/custom_button">
+            </Button>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="No Account? Register Now!"
+                    android:textColor="#FFFF"
+                    android:textSize="18dp">
+                </TextView>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/signUp_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#EF5350"
+                    android:elevation="5dp"
+                    android:src="@drawable/ic_user"
+                    app:fabSize="normal"
+                    android:clickable="true">
+                </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

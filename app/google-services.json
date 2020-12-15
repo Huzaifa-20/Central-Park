@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1070335138674",
+    "firebase_url": "https://central-park-97f17-default-rtdb.firebaseio.com",
+    "project_id": "central-park-97f17",
+    "storage_bucket": "central-park-97f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070335138674:android:a7b0cf1c5aec07458b9beb",
+        "android_client_info": {
+          "package_name": "com.Huzaifa.centralpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070335138674-pto19gdon6jkhv1uuc7imm9q0hr8aans.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Huzaifa.centralpark",
+            "certificate_hash": "0a79a2174000e183c65129ff8888b7c048bc6ef6"
+          }
+        },
+        {
+          "client_id": "1070335138674-e614bf0vitne8fskvpf08lkg2kkup49e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeMC80z7kZ6hkEBukgjrWRXgHp2FNC7e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070335138674-e614bf0vitne8fskvpf08lkg2kkup49e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

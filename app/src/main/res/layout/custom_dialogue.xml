@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/dialogue_background">
+
+    <TextView
+        android:id="@+id/DialogueBoxTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Hey!"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/DialogueBoxContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DialogueBoxTitle"
+        android:layout_marginTop="30dp"
+        android:text="- Enter your Email ID in the Email Box.\n\n- Enter your Password in Password Box.\n\n- Tap on Log In button.\n\n- Or tap on Circular Red Button at the bottom to Register yourself.\n"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/DialogueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DialogueBoxContent"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#EB1555"
+        android:text="Got it!"
+        android:textColor="#FFF"
+        android:clickable="true">
+    </Button>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_below="@id/DialogueButton">
+
+    </View>
+
+
+</RelativeLayout>

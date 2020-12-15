@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="selected">#059689</color>
+    <color name="unselected">#1C2E4A</color>
+    <color name="selectParking">#EB1555</color>
+    <color name="unselectParking">#059689</color>
+</resources>
